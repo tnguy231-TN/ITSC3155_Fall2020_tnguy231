@@ -13,7 +13,6 @@ import re
 # if it starts with a number and false otherwise.
 # (For our purposes, a number is any character that is 0,1,2,3,4,5,6,7,8, or 9.)
 def starts_with_number(s):
-    # YOUR CODE HERE
     if re.search("^[0-9]", s):
         return True
     else:
@@ -26,7 +25,6 @@ def starts_with_number(s):
 # (For our purposes, a consonant is any letter other than A, E, I, O, U.)
 # Note: Be sure to use RegEx and it works for both upper and lower case and for nonletters!
 def starts_with_consonant(s):
-    # YOUR CODE HERE
     if re.search("^[b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z]", s):
         return True
     else:
