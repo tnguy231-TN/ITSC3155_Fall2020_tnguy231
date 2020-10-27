@@ -40,6 +40,6 @@ def dict_2_array(contacts):
             name.append(key)
             emails.append(contacts[key]["email"])
             phone.append(contacts[key]["phone"])
-        #merge 3 single arrays into 3D array
+        # merge 3 single arrays into 3D array
         arr = [emails, phone, name]
     return arr
