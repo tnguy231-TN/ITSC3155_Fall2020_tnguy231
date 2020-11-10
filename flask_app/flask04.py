@@ -7,6 +7,8 @@ from flask import render_template
 
 from flask import request
 from flask import redirect, url_for
+from database import db
+
 
 app = Flask(__name__)  # create an app
 
